@@ -157,18 +157,6 @@ function createBarGraph(data) {
 
 function createBubbleGraph(data) {
 
-    // Sample data
-    // const data = {
-    //     otu_ids: [1, 2, 3],
-    //     sample_values: [10, 20, 30],
-    //     otu_labels: ['Label 1', 'Label 2', 'Label 3'],
-    // };
-    // const data = {
-    //     otu_ids: data.otu_ids,
-    //     sample_values: data.sample_values,
-    //     otu_labels: data.otu_labels,
-    // };
-
     //remove previously created Elements
     const elementToRemove = document.getElementById("bubble");
     elementToRemove.innerHTML = "";
